@@ -1,0 +1,52 @@
+URL: POST https://mosanapitest.telemor.tl:8080/gateway/services/merchant-service/merchant-service/cms/public/api/v1/merchants
+
+Request: 
+{
+  "merchantType": "PERSONAL",
+  "businessSectorUUID": "string",
+  "businessLicense": "string",
+  "merchantPhone": "string",
+  "merchantName": "string",
+  "saleId": "string",
+  "saleName": "string",
+  "parentId": "string",
+  "parentName": "string",
+  "province": "string",
+  "district": "string",
+  "precinct": "string",
+  "address": "string",
+  "longitude": 180,
+  "latitude": 90,
+  "representativeName": "string",
+  "representativePhone": "string",
+  "email": "string",
+  "gender": "MALE",
+  "paperType": "string",
+  "paperNumber": "string",
+  "issuedDate": "2024-08-27T04:37:51.711Z",
+  "expiredDate": "2024-08-27T04:37:51.711Z",
+  "issuedPlace": "string",
+  "representativeProvince": "string",
+  "representativeDistrict": "string",
+  "representativePrecinct": "string",
+  "representativeAddress": "string",
+  "portraitImage": "string",
+  "fontIdImage": "string",
+  "backIdImage": "string",
+  "bankId": 0,
+  "bankAccountNo": "string",
+  "bankAccountName": "string",
+  "bankBranch": "string",
+  "shopImages": [
+    "string"
+  ],
+  "fileAttached": [
+    "string"
+  ]
+}
+
+Response:
+{
+  "merchantUUID": "string",
+  "approveMerchantUUID": "string"
+}
