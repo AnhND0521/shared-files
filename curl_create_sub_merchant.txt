@@ -1,0 +1,32 @@
+curl --location 'https://mosanapitest.telemor.tl:8080/gateway/services/merchant-service/merchant-service/cms/public/api/v1/merchants/ffbbd426-61f8-4bfc-9b99-37fe3ee879ae/sub-merchants' \
+--header 'Content-Type: application/json' \
+--header 'Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiJob19tZXJjaGFudF9uZ29hbiIsInNjb3BlIjpbImFsbCJdLCJpZCI6MTE2MywiZXhwIjoxNzI1NDQ3MzEwLCJpYXQiOjE3MjU0NDY0MTAsImF1dGhvcml0aWVzIjpbIkhPX21lcmNoYW50LTIxIiwiUHJvbW90aW9uT3duZXItMjIiXSwianRpIjoiU0dLdEVTaU5JeDBEUmZsakpVbFQ4QTlmc1FRIiwiY2xpZW50X2lkIjoiYWdlbnQtbWVyY2hhbnQtbG95YWx0eS1jbXMifQ.VtjuwngsZcxHQCN6BEa5M611WpiLGCzeovmJ-aPIJb2gq3mwbGCY_kdlDHacy4TYQQ91zk7y7nmgAMabzWFwrPHo0hnvRk08KYeo7K3-VlnZCgUGiXTLtEuHKxDPP6zAOhFrRsBdLCbWN7TDHbQTLL0LgKXlzR3h39GosNSgLscAJ6lDaAHwlAyYEflHqfVlR1AFW2oA_0sQODlDVCkeTDqV3C3Lxoqwu_x-x5Q_knO5RXVC8zRPME5DdSCanmZIyh5aK9aIIyCkRfNZRegRt8TlvNBttKe6KOJyvJgSL7vdz3bx4m_TCFU6WfIKPYI89kwS6vqZmskcoKOArZnvBw' \
+--data '{
+    "subMerchantName": "Gray Hawkins",
+    "subMerchantCode": "SUBMC002",
+    "subMerchantPhone": "67075550100",
+    "province": "DIL",
+    "district": "DIL04",
+    "precinct": "DIL04002",
+    "address": "Dili",
+    "longitude": 125.5599692463241,
+    "latitude": -8.563034390315051,
+    "description": "New sub merchant",
+    "representativeName": "Theresa Webb",
+    "representativePhone": "67075550123",
+    "shopFrontImage": "2d4fd58e-b3ba-4b2f-9cad-ea77645258a1",
+    "shopImages": [
+        "f332461e-06ef-4ab1-b0a3-371c67abc7d8",
+        "de904e53-a79c-4727-9f34-e8fca674c49c"
+    ]
+}'
+
+
+Response:
+{
+    "message": "Success",
+    "traceId": "5f63bf3fa156d4e7",
+    "data": {
+        "subMerchantUUID": "f282b632-06ca-4428-9f09-5688b710e70e"
+    }
+}

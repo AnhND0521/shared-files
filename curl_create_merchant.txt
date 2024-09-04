@@ -1,0 +1,56 @@
+curl --location 'https://mosanapitest.telemor.tl:8080/gateway/services/merchant-service/merchant-service/cms/public/api/v1/merchants' \
+--header 'Content-Type: application/json' \
+--header 'Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiJob19tZXJjaGFudF9uZ29hbiIsInNjb3BlIjpbImFsbCJdLCJpZCI6MTE2MywiZXhwIjoxNzI1NDQ2MzQ2LCJpYXQiOjE3MjU0NDU0NDYsImF1dGhvcml0aWVzIjpbIkhPX21lcmNoYW50LTIxIiwiUHJvbW90aW9uT3duZXItMjIiXSwianRpIjoieVI4cTRkWU1oX3VEd1VjVHhQeGZLMWtuaWZRIiwiY2xpZW50X2lkIjoiYWdlbnQtbWVyY2hhbnQtbG95YWx0eS1jbXMifQ.gQMcH7HCo_tDbRwwfr0EclIKpSLNOTZj4g85VfQocZAt3Ix6IPLfklepKcSWnap7N7VE64IPdH2dtI1TLOsNMk31OL43yhzQjRC99EtoK7M195CZdfnvCvsejEYK05VUFl9v-zWPgxwPcPiaFiMDe9WZ2Im7Ji-gBT0eeVze7_2EVom1EuzVKfaiQ0PNCcczSh8fOHBLpbRd0I2FNEQ7-MDS3qpoDtWTwsSbnu6OHnbUkBfOeNcmyMKx6ARl8Yn-ASwac9FAQluYy98Roq0syXLSoVdCs0rbkGRPzXikj_hO3kaJcRJrsZsJSnDMxqTmRazewa24ZOjXhcXTDUnaAw' \
+--data-raw '{
+    "merchantType": "COMPANY",
+    "businessSectorUUID": "c4b9e33f-ec96-485c-866b-e8d3079b310e",
+    "businessLicense": "25576848",
+    "merchantPhone": "67076220002",
+    "merchantName": "MerchantName",
+    "province": "DIL",
+    "district": "DIL01",
+    "precinct": "DIL01004",
+    "address": "Dili",
+    "longitude": 105.7844516154522,
+    "latitude": 21.017064519917016,
+    "representativeName": "RepName",
+    "representativePhone": "67076220131",
+    "email": "RepName@gmail.com",
+    "gender": "FEMALE",
+    "paperType": "BI_CARD",
+    "paperNumber": "56674688976666890",
+    "issuedDate": "2023-05-22T07:28:00.063Z",
+    "expiredDate": "2033-05-22T07:28:00.063Z",
+    "issuedPlace": "Earth",
+    "representativeProvince": "DIL",
+    "representativeDistrict": "DIL01",
+    "representativePrecinct": "DIL01003",
+    "representativeAddress": "Doan xem",
+    "portraitImage": "2d4fd58e-b3ba-4b2f-9cad-ea77645258a1",
+    "fontIdImage": "de904e53-a79c-4727-9f34-e8fca674c49c",
+    "backIdImage": "b48b6766-5703-4c95-a1c4-b07423f57b68",
+    "shopFrontImage": "f332461e-06ef-4ab1-b0a3-371c67abc7d81",
+    "shopImages": [
+        "2d4fd58e-b3ba-4b2f-9cad-ea77645258a1",
+        "de904e53-a79c-4727-9f34-e8fca674c49c"
+    ],
+    "saleId": "853874",
+    "saleName": "Le Dinh Hung",
+    "parentId": "S0001",
+    "parentName": "SA merchant",
+    "bankId": 1,
+    "bankAccountName": "Jake Duckinson",
+    "bankAccountNo": "1234567890123456988",
+    "bankBranch": "Dili"
+}'
+
+
+Response:
+{
+    "message": "Success",
+    "traceId": "f0814bd05a7b56e6",
+    "data": {
+        "merchantUUID": "9f8b6266-b571-4e17-be9a-845b05ae1934",
+        "approveMerchantUUID": "7a79521b-ac9c-46a5-8f57-16f457ec0862"
+    }
+}
