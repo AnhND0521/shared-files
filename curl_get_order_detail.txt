@@ -1,0 +1,35 @@
+curl --location 'https://mosanapitest.telemor.tl:8090/gateway/services/merchant-service/merchant-service/mobile/merchant/public/api/v1/orders/d1497b3c-44cd-4a60-8137-78309311e8a0' \
+--header 'Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiI2NzA3NTEwMDAwMSIsInNjb3BlIjpbImFsbCJdLCJpZCI6MTEyMiwiZXhwIjoxNzI2NTc0NDg5LCJpYXQiOjE3MjY1NjQ0ODksImF1dGhvcml0aWVzIjpbIk1lcmNoYW50X093bmVyLTIxIl0sImp0aSI6IkI5aUx4dVB0RURRYzdLb1lFWGRsb3k2cDI4RSIsImNsaWVudF9pZCI6ImFnZW50LW1lcmNoYW50LWxveWFsdHktY21zIn0.VOoWkehR0E392owJR3OEwcz7Ffh6w6sESodkRcBSkeK-LKkzCUv__Gl3V_OKSOd4DK6MtGALwYzDIfvXnOhYs3DQyt2RVERcnvrUkE2m-5QGsekvcwVczhe-cmNuk6EFR-6YGJAvRGAILZ-FZpCzaiYVCe4i455xllgZQosgb4KL_1S_XLYXL5-F3KZI0wHC96SHeO-ztzrP9AXASpK1uiKA9fhUsMXtXrRLtSTmxEZaTzk-LZe9ztpnejNLqHUqrcJYNh0t1fqTkpJM9c4fkdAzmvD-Ra4Od-43hEcu16ZgR2hRcBKxXE-4fX3I9ONaa7Bdgm8gRRUbqbunmD2q-g'
+
+Response:
+{
+    "responseCode": "0000",
+    "message": "Success",
+    "traceId": "3eeaf2ca25df4a74",
+    "data": {
+        "orderID": 143,
+        "orderUUID": "d1497b3c-44cd-4a60-8137-78309311e8a0",
+        "orderCode": "0510202301",
+        "expireTime": -1,
+        "qrCode": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASwAAAEsAQAAAABRBrPYAAADgElEQVR4Xu2ZS6rjMBBFK3jgYZagncQbC9iQjSU70RI89CBEfc9V4DnmQfdQoiNoP9s6aajU51YpUf5lrXF88+v6Yof1xQ7rix1W81iOiCHHSbdbnJ9Jj3MZH9rYdAvRPqZ/txzTGrFN65A37sZ78Fh328dkn7DTeuX9ksbXWe/8eNFX0BF2OT9jfLB5WnHRek19YWUsZQndLRGXiCR2Lv1ghXgrL73yBzYlT1a8DeWXsGwUC7J+u8hjx4t2IJrH6pJ3hhJc5CL5SdULI72ax/L4wjEyKillME6EPPZMhccesBI2De/UO+VNohRzsbnNY4jfEno1FCXKXModGaQK6/L8+UIaxqhZYicK14R3XsIIuqwPLF1gGd0L21eL7UOhpuQxtvtCWsbKPaR2ql6FbCm6u5ItaPo+3hrG2BxKof0bi3RPzlqw1OwM0DyWVa5wjGiLXzV8kqXa2Il4yxhRVhBxjLzVeKMbTCoCV4gesDMFmBYkdKcPBM4Kipk81gGmTS1GoSItnLlUDOLZBZZde9/tuO5kqYvAOwZ7wJT1SvMNBVTkKcCwmbukvzsFbBnDPrMxMg/hOjVV8lMtBx1gjBCqWZg2otpBEbAqau2yvmWMrOdyY1OXC62URfz1ofXtYvjpVpsRhrtax1ByWb/vuBrGsk82dLnRnde8Scg5+T/z/7SPEVdhBXTkWUhqk8sBWg8Y4qdXOIaePNVHxE9B99OHtI3xZKu293D3xOArj3v5aBnzFPSwfChlrOTvFmTfhzSMIeLOevJGH6AAI4jqQ+5yWxeYzwbePfnqrlalWENR8czaA1bsJxcpahahNpMyPNLf9oChdtSsIXu4Gxnu2GNzr4ANY7ZUUVZ7crclYFZA77ePQWSmuXA36PM+d+fBux4w9HtJVb/pPgg1Do7n2uR2gaEc4ZO/2jtRuHze5walB0w9h+osRibF25WOxPEWPM4A7WP+TdTdoGtv/U10quPqR3FoFlOdZZiYONnwmnjHWBEEXQ+YVyY98I7zRn7i3edk1DCGQT51HVDAISOD6mXpTS70WD1gxb8qPpipiTeLxuazmg9LW8Y8lbonl4tgsR4jg9UNZj+RN3aWChdnNTTmHWEstNAf8Ig9IIO7saJlrBBv4eNilyvOajZ3iHRWXWDaHgiwd7myaDCkJiyFaB77+/pih/XFDuuLHdZ/hP0BtztQibt3z0IAAAAASUVORK5CYII=",
+        "customerName": null,
+        "content": null,
+        "originalPrice": 1,
+        "currency": "USD",
+        "status": "EXPIRED",
+        "merchant": {
+            "id": 165,
+            "merchantName": "Ngalt34 Chan",
+            "merchantPhone": "67076743558"
+        },
+        "staff": {
+            "id": 1,
+            "staffName": "Nga staff",
+            "staffPhone": "67076743560"
+        },
+        "createdDate": "2023-10-05T07:18:42.927949Z",
+        "transactionUuid": null,
+        "transactionId": null,
+        "showQR": true
+    }
+}
