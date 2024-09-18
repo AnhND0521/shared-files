@@ -1,0 +1,18 @@
+curl --location 'https://mosanapitest.telemor.tl:8090/gateway/services/merchant-service/public-api/v1/files' \
+--header 'Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiI2NzA3NjIwMDMwNSIsInNjb3BlIjpbImFsbCJdLCJpZCI6MTAwMywiZXhwIjoxNzI2NjQ2MTM1LCJpYXQiOjE3MjY2MzYxMzUsImF1dGhvcml0aWVzIjpbIk1lcmNoYW50X093bmVyLTIxIl0sImp0aSI6InVheVVvNkM3YWJQWENsTThnYWFDRjRwUU5TNCIsImNsaWVudF9pZCI6ImFnZW50LW1lcmNoYW50LWxveWFsdHktY21zIn0.j5ECqJXHqPYJ-p90Zt57Wdlldyr9-mV8QSHl4SQapzjfUbVXchZReGnX-4gUSEEGDXNzke64ay0QQ38AoWzZGw1Bajy7kSR9mORDFFSy8mTFNwh-gQr23n4RfSIQxd-8RlU08xEMdKEwspRuxFPyfT6iVyuhsGkFhnoM8grJnWx7-DeN6VPAb_iSOLkO3PiHLU_0S9BWe3_iuYKwwjyz5uNASy86w0zvzwixRtNaICQsSCt0_xMrI_yo9j9eLVMWWvAjS2eqPBhGhjdRewm54kU1lXrTAJ6uelT84VncD5YrxlFR2RPYmuQbgc5Aud9tgdaJiSXijUOuRXaF0R1-CA' \
+--form 'file=@"/C:/Users/anhnd173/Downloads/merchant test.png"'
+
+Response:
+{
+    "responseCode": "0000",
+    "message": "Success",
+    "traceId": "bce890aeac5f94e1",
+    "data": {
+        "fileKey": "614ecf21-c87e-447b-b39a-83eab8a98a2a",
+        "originalName": "merchant test.png",
+        "extension": "image/png",
+        "fileSize": 634,
+        "filePath": "merchant/merchant-features/merchant-user/237f0f08-4d9a-497b-8b87-c33c29e5da4c.png",
+        "downloadPath": "https://mosanapitest.telemor.tl:8090/gateway/services/upload-service/files/merchant/merchant-features/merchant-user/237f0f08-4d9a-497b-8b87-c33c29e5da4c.png"
+    }
+}
